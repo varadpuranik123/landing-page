@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MeetHub</title>
+</head>
+<body class="bg-slate-50">
+    <main class="w-full">
+        <nav class="fixed w-full lg:px-40 px-4 py-6 flex justify-between items-center">
+            <div id="logo" class="font-sans text-3xl text-zinc-900 font-semibold">Meethub</div>
+            <div id="links" class="font-sans absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-base font-medium text-zinc-800 lg:flex hidden gap-3">
+                <p class=" opacity-40 hover:opacity-80 transition ease-in-out duration-300 cursor-pointer hover:bg-black/5 rounded-md py-1 px-2 ">Home</p>
+                <p class=" opacity-40 hover:opacity-80 transition ease-in-out duration-300 cursor-pointer hover:bg-black/5 rounded-md py-1 px-2 ">About</p>
+                <p class=" opacity-40 hover:opacity-80 transition ease-in-out duration-300 cursor-pointer hover:bg-black/5 rounded-md py-1 px-2 ">Products</p>
+            </div>
+            <div id="button" class="font-sans flex gap-2 items-center font-semibold lg:text-base text-sm tracking-tight text-zinc-100 bg-blue-600 hover:opacity-90 transition ease-in-out duration-300 cursor-pointer px-4 py-2 rounded-lg">
+                <p class="">Start Meeting</p>
+                <p class="">
+                    <svg width="20" height="20" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clip-path="url(#clip0_236_1049)"> <path fill-rule="evenodd" clip-rule="evenodd" d="M200 2.62268e-06V60L200 200H140V130.033C139.982 168.678 108.649 200 70 200C31.3401 200 0 168.66 0 130C0 91.3401 31.3401 60 70 60C108.649 60 139.982 91.3222 140 129.967V60H70H0V2.62268e-06L140 0L200 2.62268e-06Z" fill="url(#paint0_linear_236_1049)"/> </g> <defs> <linearGradient id="paint0_linear_236_1049" x1="157.5" y1="32" x2="44" y2="147.5" gradientUnits="userSpaceOnUse"> <stop offset="0.0509862" stop-color="#FFB6E1"/> <stop offset="1" stop-color="#FBE3EA"/> </linearGradient> <clipPath id="clip0_236_1049"> <rect width="200" height="200" fill="white"/> </clipPath> </defs> </svg>
+                </p>
+            </div>
+        </nav>
+        <div id="page1" class="w-full lg:h-screen border-4 h-screen flex flex-col items-center lg:justify-end justify-end py-4 lg:py-0 gap-y-4">
+            <div id="upheading" class="lg:text-sm text-xs font-medium opacity-60 flex gap-2 items-center border-2 border-black/10 px-4 py-1 rounded-full">
+                <p class="w-2.5 h-2.5 shadow-[0_0px_30px_3px_#fdd6b5] bg-gradient-to-br from-[#febde4] to-[#fdd6b5] rounded-full"></p>
+                <p class="">Empower your ideas from concept to collaboration</p>
+            </div>
+            <div id="Heading" class="w-full flex flex-col items-center text-[#444]">
+                <p class="capitalize lg:text-6xl text-3xl font-semibold tracking-tight">We have it all</p>
+                <div class="flex gap-2">
+                    <p class="capitalize lg:text-6xl text-3xl font-semibold tracking-tight text-violet-600 lg:[text-shadow:0px_0px_75px_#7c3aed] [text-shadow:0px_0px_50px_#7c3aed]">Meeting</p>
+                    <p class="capitalize lg:text-6xl text-3xl font-semibold tracking-tight text-sky-500 lg:[text-shadow:0px_0px_75px_#0ea5e9] [text-shadow:0px_0px_50px_#0ea5e9]">Drawing</p>
+                    <p class="capitalize lg:text-6xl text-3xl font-semibold tracking-tight text-amber-500 lg:[text-shadow:0px_0px_75px_#f59e0b] [text-shadow:0px_0px_50px_#f59e0b]">Writing</p>
+                </div>
+            </div>
+            <div id="subheading" class="lg:text-lg text-sm max-w-[40rem] leading-tight tracking-tight font-medium opacity-40 text-center">Seamlessly connect through meeting, bring ideas to life through drawing, and capture every insight through writing all on one powerful platform</div>
+            <div id="services" class="mt-8 lg:px-52 px-4 w-full lg:h-[40vh] h-fit flex lg:flex-row flex-col  lg:gap-5 gap-2 items-start justify-center">
+                <a id="meethub" href="https://meethub2.vercel.app/" target="_blank" class="lg:w-1/2 w-full h-1/2 overflow-hidden group border-2 rounded-xl flex bg-gradient-to-br from-violet-500 to-violet-100 hover:border-violet-500 transition duration-300 ease-in">
+                    <div id="textdiv" class="h-full w-1/2 flex flex-col p-4">
+                        <h1 class="text-xl font-semibold text-white tracking-tight">MeetHub</h1>
+                        <p class="text-base text-white tracking-tight">A meeting platform</p>
+                    </div>
+                    <div id="imgdiv" class="h-full w-1/2 relative">
+                        <img src="/assets/meethub.png" alt="" class="object-cover w-96 absolute -bottom-2 -rotate-6 rounded-lg group-hover:scale-105 group-hover:-rotate-2 group-hover:bottom-0 transition-all">
+                    </div>
+                </a>
+                <a id="epicboard" href="https://harshalpathakepicboard.netlify.app/" target="_blank" class="lg:w-1/2 w-full h-1/2 overflow-hidden group border-2 rounded-xl flex bg-gradient-to-br from-yellow-500 to-yellow-100 hover:border-yellow-500 transition duration-300 ease-in">
+                    <div id="textdiv" class="h-full w-1/2 flex flex-col p-4">
+                        <h1 class="text-xl font-semibold text-white tracking-tight">Epicboard</h1>
+                        <p class="text-base text-white tracking-tight whitespace-nowrap">A Collaborative board</p>
+                    </div>
+                    <div id="imgdiv" class="h-full w-1/2 relative">
+                        <img src="/assets/epicboard.png" alt="" class="object-cover w-96 absolute -bottom-2 -rotate-6 rounded-lg group-hover:scale-105 group-hover:-rotate-2 group-hover:bottom-0 transition-all">
+                    </div>
+                </a>
+                <a id="livedocs" href="https://live-doc-flax.vercel.app/" target="_blank" class="lg:w-1/2 w-full h-1/2 overflow-hidden group border-2 rounded-xl flex bg-gradient-to-br from-blue-500 to-blue-100 hover:border-blue-500 transition duration-300 ease-in">
+                    <div id="textdiv" class="h-full w-1/2 flex flex-col p-4">
+                        <h1 class="text-xl font-semibold text-white tracking-tight">Livedoc</h1>
+                        <p class="text-base text-white tracking-tight">live doc platform</p>
+                    </div>
+                    <div id="imgdiv" class="h-full w-1/2 relative">
+                        <img src="/assets/livedoc.png" alt="" class="object-cover w-96 absolute -bottom-2 -rotate-6 rounded-lg group-hover:scale-105 group-hover:-rotate-2 group-hover:bottom-0 transition-all">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
