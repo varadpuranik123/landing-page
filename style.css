@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+#page1{
+    background-image: url(/assets/grid.svg);
+    background-size: fill ;
+    background-blend-mode: overlay;
+}
